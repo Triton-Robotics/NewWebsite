@@ -169,6 +169,13 @@ a,
   background-size: cover;
 }
 
+.left {
+    float: left;
+    width: 150px;
+    background: red;
+}
+
+
 /* Module header */
 .module-small {
   padding: 70px 0;
@@ -896,6 +903,7 @@ blockquote {
 .font-serif {
   font-family: Volkhov, "Times New Roman", sans-serif;
   font-style: italic;
+  font-size:20px
 }
 
 .large-text {
@@ -1120,6 +1128,41 @@ Hero Slider
 /*
 Photography Page Slider
 */
+
+.circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular--landscape img {
+    width: auto;
+    height: auto;
+}
+
+.circular_big--landscape {
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px auto 20px;
+}
+
+.circular_big--landscape img {
+    width: auto;
+    height: auto;
+    text-align: center;
+
+}
+
+
+
 .photography-page .image-caption {
   bottom: 20px;
   position: absolute;
@@ -1514,7 +1557,7 @@ General Styles - Owlcarousel
 }
 
 .footer .footer-social-links {
-  text-align: right;
+  text-align: left;
 }
 
 .footer .footer-social-links a {
@@ -2722,8 +2765,9 @@ Google map
     font-size: 9px;
     content: "\f105";
     text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
+    /*-webkit-font-smoothing: antialiased;*/
     -moz-osx-font-smoothing: grayscale;
+    -webkit-appearance:none;
   }
   .navbar-right .dropdown-menu {
     right: auto;
