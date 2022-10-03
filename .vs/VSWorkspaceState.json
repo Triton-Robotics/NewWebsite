@@ -4,9 +4,11 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\images",
+    "\\assets\\images\\robots",
     "\\assets\\images\\robots\\hero",
+    "\\assets\\images\\robots\\sentry",
     "\\html"
   ],
-  "SelectedNode": "\\html\\about_us.html",
+  "SelectedNode": "\\assets\\images\\robots\\sentry\\DSC_0824.JPG",
   "PreviewInSolutionExplorer": false
 }
